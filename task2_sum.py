@@ -3,6 +3,6 @@
 # Пример:
 # Ввод: 3, 5
 # Вывод: Сумма: 8
-a,b = int(input())
+a, b = map(int, input().split(', '))
 
 print("Сумма:", a+b)
