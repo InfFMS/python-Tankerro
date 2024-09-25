@@ -3,3 +3,6 @@
 # Пример:
 # Ввод: k = 2, b = 3, x = 5
 # Вывод: y = 13
+k, b, x = input().split(',')
+k, b, x = int(k[k.index('=') + 1:]), int(b[b.index('=') + 1:]), int(x[x.index('=') + 1:])
+print(f'y = {k * x + b}')

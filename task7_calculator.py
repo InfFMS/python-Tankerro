@@ -3,3 +3,13 @@
 # Пример:
 # Ввод: Первое число: 10, Второе число: 2, Операция: *
 # Вывод: Результат: 20
+first, second, operation = input("Введите 2 числа и операцию: ").split()
+first, second = int(first), int(second)
+if operation == '+':
+    print(f'Результат: {first + second}')
+elif operation == '-':
+    print(f'Результат: {first - second}')
+elif operation == '*':
+    print(f'Результат: {first * second}')
+elif operation == '/':
+    print(f'Результат: {first / second}')
